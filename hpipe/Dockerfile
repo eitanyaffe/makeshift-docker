@@ -9,7 +9,7 @@ WORKDIR ${MAKESHIFT_ROOT}
 RUN \
 git clone https://github.com/eitanyaffe/makeshift-core.git && \
 git clone https://github.com/eitanyaffe/makeshift-modules.git && \
-git clone --branch dev https://github.com/eitanyaffe/hpipe:dev
+git clone --branch dev https://github.com/eitanyaffe/hpipe
 
 # compile binaries
 WORKDIR ${MAKESHIFT_ROOT}/hpipe/pipeline
