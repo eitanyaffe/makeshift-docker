@@ -7,7 +7,7 @@ WORKDIR ${MAKESHIFT_ROOT}
 
 # clone code from git
 RUN \
-git clone --branch v1.2.2 https://github.com/eitanyaffe/makeshift-core.git && \
+git clone --branch v1.2 https://github.com/eitanyaffe/makeshift-core.git && \
 git clone --branch v1.2.3 https://github.com/eitanyaffe/makeshift-modules.git && \
 git clone --branch v1.2.3 https://github.com/eitanyaffe/hpipe
 
